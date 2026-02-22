@@ -6,7 +6,7 @@ const MachineMaintenance = () => {
 		<section className='w-full bg-[#0d0d0d] overflow-hidden'>
 			<div className='max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 items-stretch min-h-[340px]'>
 				{/* Left – product image */}
-				<div className='relative overflow-hidden min-h-[260px] md:min-h-[340px]'>
+				<div className='relative overflow-hidden max-h-[260px] md:max-h-[340px]'>
 					<img
 						src='/images/electronics-banner-img.png'
 						alt='Electronics accessories'
@@ -26,24 +26,10 @@ const MachineMaintenance = () => {
 							MICROPHONE
 						</h2>
 						<p className='text-gray-400 text-sm leading-relaxed'>
-							Lorem Ipsum Dolor Sit Amet Consectetur. Ut Ultrices Nulla Quis
-							Dictum Platea Nisi Feugiat Mattis Odio. Odio Fusce Hac Pharetra
-							Nulla Eros Diam Quam Interdum.
+							Studio-quality audio for creators, podcasters, and professionals.
+						Explore our curated range of USB and XLR microphones built to
+						deliver crystal-clear sound — wherever you record.
 						</p>
-
-						{/* Decorative dots */}
-						<div className='flex items-center gap-2 py-1'>
-							{["dot-a", "dot-b", "dot-c"].map((id, i) => (
-								<span
-									key={id}
-									className={`rounded-full ${
-										i === 1
-											? "w-5 h-2 bg-shop"
-											: "w-2 h-2 bg-white/30"
-									}`}
-								/>
-							))}
-						</div>
 
 						<Link
 							href='/category'
