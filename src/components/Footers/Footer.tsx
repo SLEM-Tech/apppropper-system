@@ -79,9 +79,8 @@ const Footer = () => {
 						/>
 						<span className='text-lg font-black text-gray-900 tracking-tight leading-none'>
 							<span className='text-shop'>a</span>pppopper
-							<span className='block text-[10px] text-gray-400 font-medium tracking-widest uppercase'>
-								systems
-							</span>
+							<br />
+							<span className='block text-[10px] text-gray-400 font-medium tracking-widest uppercase'>systems</span>
 						</span>
 					</Link>
 					<p className='text-sm text-gray-500 leading-relaxed'>
