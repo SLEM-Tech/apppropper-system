@@ -82,7 +82,7 @@ const MainCategorySection = () => {
 					)}
 					{CategoryProducts?.length > 0 && (
 						<div className='bg-white py-3 sm:px-7 w-full min-h-[400px]'>
-							<div className='flex flex-wrap justify-center sm:justify-start gap-3 sm:gap-8 sm:px-0'>
+							<div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4'>
 								{CategoryProducts?.length > 0 &&
 									CategoryProducts?.map((product) => (
 										<ProductCard2
